@@ -1,0 +1,489 @@
+  1  ls
+    2  cd /opt
+    3  ls
+    4  netstat -tunlp
+    5  sudo docker ps
+    6  top
+    7  node -v
+    8  sudo yum install gcc gcc-c++
+    9  sudo yum install cmake*
+   10  yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel -y
+   11  sudo yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel -y
+   12  python -V
+   13  which python
+   14  sudo yum install python-tools
+   15  sudo yum install gtk2-devel
+   16  ls
+   17  cd /tmp
+   18  ls
+   19  tar -zxvf opencv-3.4.8.tar.gz
+   20  cd opencv-3.4.8/
+   21  mkdir build
+   22  cd build
+   23  ls
+   24  sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_opencv_python2=ON -D BUILD_opencv_python3=ON ..
+   25  sudo yum install cmake*
+   26  sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_opencv_python2=ON -D BUILD_opencv_python3=ON ..
+   27  sudo yum install cmake* --skip-broken
+   28  sudo yum install cmake*
+   29  rpm -Va --nofiles --nodigest
+   30  sudo yum install cmake*
+   31  yum install -y gcc gcc-c++ make automake 
+   32  sudo yum install -y gcc gcc-c++ make automake 
+   33  sudo yum install cmake*
+   34  ls
+   35  cd /tmp
+   36  ls
+   37  wget https://cmake.org/files/v3.12/cmake-3.12.0-rc1.tar.gz
+   38  tar -zxvf cmake-3.12.0-rc1.tar.gz
+   39  cd cmake-3.12.0-rc1
+   40  ./bootstrap
+   41  gmake
+   42  gmake install
+   43  sudo gmake install
+   44  cmake --version
+   45  cd /tmp
+   46  ls
+   47  cd opencv-3.4.8/
+   48  ls
+   49  cd build
+   50  ls
+   51  sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_opencv_python2=ON -D BUILD_opencv_python3=ON ..
+   52  cmake
+   53  sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_opencv_python2=ON -D BUILD_opencv_python3=ON ..
+   54  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_opencv_python2=ON -D BUILD_opencv_python3=ON ..
+   55  sudo make 
+   56  sudo make
+   57  sudo make install
+   58  sudo yum -y install epel-release
+   59  sudo yum -y install python-pip
+   60  pip -V
+   61  ls
+   62  cd /tmp
+   63  ls
+   64  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+   65  python get-pip.py
+   66  sudo yum -y install epel-release
+   67  sudo yum -y install python-pip
+   68  wget -q http://peak.telecommunity.com/dist/ez_setup.py
+   69  python ez_setup.py
+   70  ls
+   71  sudo yum install python-setuptools
+   72  easy_install pip
+   73  sudo easy_install pip
+   74  pip -V
+   75  cd /opt
+   76  ls
+   77  sudo mkdir project
+   78  ls
+   79  cd project
+   80  ls
+   81  sudo mv /tmp/lee_slide_cracker.zip .
+   82  ls
+   83  sudo unzip lee_slide_cracker.zip 
+   84  ls
+   85  sudo rm -rf lee_slide_cracker.zip 
+   86  ls
+   87  cd lee_slide_cracker/
+   88  ls
+   89  sudo rm -rf venv/
+   90  ls
+   91  cd scripts/
+   92  ls
+   93  pip install -r requirements
+   94  sudo pip install -r requirements
+   95  sudo pip install Werkzeug
+   96  sudo pip install subprocess32
+   97  sudo yum install python-dev
+   98  sudo yum install python-subprocess32
+   99  sudo pip install -r requirements
+  100  sudo pip uninstall subprocess32
+  101  ls
+  102  sudo vim requirements 
+  103  sudo pip install -r requirements
+  104  ls
+  105  cd ..
+  106  ls
+  107  pwd
+  108  ls
+  109  nohup python /opt/project/lee_slide_cracker/run.py > /opt/project/lee_slide_cracker/run.log 2>&1 &
+  110  sudo nohup python /opt/project/lee_slide_cracker/run.py > /opt/project/lee_slide_cracker/run.log 2>&1 &
+  111  sudo chmod -R 777 /opt
+  112  nohup python /opt/project/lee_slide_cracker/run.py > /opt/project/lee_slide_cracker/run.log 2>&1 &
+  113  ls
+  114  cat run.
+  115  cat run.log 
+  116  ps -ef|grep python
+  117  ls
+  118  pip install opencv-python
+  119  sudo yum install libX*
+  120  ls
+  121  nohup python /opt/project/lee_slide_cracker/run.py > /opt/project/lee_slide_cracker/run.log 2>&1 &
+  122  cat run.log 
+  123  ps -ef|grep python
+  124  ifconfig
+  125  ls
+  126  cd /opt
+  127  ls
+  128  sudo mv /tmp/nginx-1.17.7.tar.gz .
+  129  ls
+  130  tar -vxzf nginx-1.17.7.tar.gz 
+  131  ls
+  132  sudo rm -rf nginx-1.17.7.tar.gz 
+  133  ls
+  134  cd nginx-1.17.7/
+  135  ls
+  136  cd confi
+  137  cd conf
+  138  ls
+  139  sudo vim nginx.conf
+  140  nginx
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd ..
+  145  ls
+  146  cd nginx-1.17.7/
+  147  ls
+  148  sudo yum install gcc gcc-c++ automake pcre pcre-devel zlip zlib-devel openssl openssl-devel 
+  149  ./configure  --prefix=/usr/local/nginx  --sbin-path=/usr/local/nginx/sbin/nginx --conf-path=/usr/local/nginx/conf/nginx.conf --error-log-path=/var/log/nginx/error.log  --http-log-path=/var/log/nginx/access.log  --pid-path=/var/run/nginx/nginx.pid --lock-path=/var/lock/nginx.lock  --user=nginx --group=nginx --with-http_ssl_module --with-http_stub_status_module --with-http_gzip_static_module --http-client-body-temp-path=/var/tmp/nginx/client/ --http-proxy-temp-path=/var/tmp/nginx/proxy/ --http-fastcgi-temp-path=/var/tmp/nginx/fcgi/ --http-uwsgi-temp-path=/var/tmp/nginx/uwsgi --http-scgi-temp-path=/var/tmp/nginx/scgi --with-pcre
+  150  make
+  151  sudo make install
+  152  nginx
+  153  ls
+  154  cd /usr/local
+  155  ls
+  156  cd nginx
+  157  ls
+  158  cd sbin
+  159  ls
+  160  nginx
+  161  sudo nginx
+  162  sudo ln -s /usr/local/nginx/sbin/nginx /usr/local/bin/
+  163  nginx
+  164  nginx -v
+  165  ls
+  166  cd ..
+  167  ls
+  168  cd /opt/projcec
+  169  ls
+  170  cd ..
+  171  ls
+  172  cd /opt
+  173  ls
+  174  mkdir logs
+  175  ls
+  176  cd logs
+  177  ls
+  178  mkdir lee_slide_cracker
+  179  ls
+  180  cd lee_slide_cracker/
+  181  ls
+  182  pwd
+  183  ps -ef|grep pytho
+  184  kill -9 23342
+  185  ps -ef|grep pytho
+  186  ps -ef|grep python
+  187  kill -9 23351
+  188  ps -ef|grep python
+  189  ls
+  190  ps -ef|grep python
+  191  clear
+  192  nohup python /opt/project/lee_slide_cracker/run.py > /opt/logs/lee_slide_cracker/out.log 2>&1 &
+  193  ps -ef|grep python
+  194  which python
+  195  kill -9 26232 26241
+  196  which python
+  197  ps -ef|grep python
+  198  ls
+  199  cat out.log 
+  200  rm -rf out.log 
+  201  ls
+  202  nohup /usr/bin/python /opt/project/lee_slide_cracker/run.py > /opt/logs/lee_slide_cracker/out.log 2>&1 &
+  203  ps -ef|grep python
+  204  cat out.log 
+  205  ls
+  206  kill -9 26278 26287
+  207  ls
+  208  rm -rf out.log 
+  209  cd ..
+  210  ls
+  211  cd /opt/project/lee_slide_cracker/
+  212  ls
+  213  sudo vim run.py 
+  214  rm -rf run.log 
+  215  ls
+  216  cd /opt/logs/lee_slide_cracker/
+  217  ls
+  218  nohup python /opt/project/lee_slide_cracker/run.py > /opt/logs/lee_slide_cracker/out.log 2>&1 &
+  219  cat out.log 
+  220  ps -ef|grep python
+  221  ifconfig
+  222  cat out.log 
+  223  ls
+  224  sudo vim /opt/project/lee_slide_cracker/run.py 
+  225  ls
+  226  ps -ef|grep python
+  227  kill -9 26351
+  228  nohup python /opt/project/lee_slide_cracker/run.py > /opt/logs/lee_slide_cracker/out.log 2>&1 &
+  229  ps -ef|grep python
+  230  sudo vim /etc/rc.d/rc.local
+  231  source /etc/rc.d/rc.local 
+  232  sudo source /etc/rc.d/rc.local 
+  233  ps -ef|grep python
+  234  cd /usr/local/nginx/conf
+  235  ls
+  236  sudo vim nginx.conf
+  237  ls
+  238  cd /usr/loca
+  239  ls
+  240  cd /usr/local
+  241  ls
+  242  mkdir src
+  243  cd src
+  244  ls
+  245  mv /tmp/nginx_upstream_check_module-master.zip .
+  246  sudo mv /tmp/nginx_upstream_check_module-master.zip .
+  247  ls
+  248  sudo unzip nginx_upstream_check_module-master.zip 
+  249  ls
+  250  sudo rm -rf nginx_upstream_check_module-master.zip 
+  251  ls
+  252  cd nginx_upstream_check_module-master/
+  253  ls
+  254  cd ..
+  255  ls
+  256  cd /opt/nginx-1.17.7/
+  257  ls
+  258  ./configure  --prefix=/usr/local/nginx --add-module=/usr/local/src/nginx_upstream_check_module-master --sbin-path=/usr/local/nginx/sbin/nginx --conf-path=/usr/local/nginx/conf/nginx.conf --error-log-path=/var/log/nginx/error.log  --http-log-path=/var/log/nginx/access.log  --pid-path=/var/run/nginx/nginx.pid --lock-path=/var/lock/nginx.lock  --user=nginx --group=nginx --with-http_ssl_module --with-http_stub_status_module --with-http_gzip_static_module --http-client-body-temp-path=/var/tmp/nginx/client/ --http-proxy-temp-path=/var/tmp/nginx/proxy/ --http-fastcgi-temp-path=/var/tmp/nginx/fcgi/ --http-uwsgi-temp-path=/var/tmp/nginx/uwsgi --http-scgi-temp-path=/var/tmp/nginx/scgi --with-pcre
+  259  make -j2
+  260  ls
+  261  cd /usr/local/nginx
+  262  ls
+  263  cd sbin
+  264  ls
+  265  cd ..
+  266  ls
+  267  cd html
+  268  ls
+  269  cd ..
+  270  ls
+  271  cd ..
+  272  ls
+  273  sudo rm -rf nginx
+  274  ls
+  275  sudo mv /opt/nginx-1.17.7/ .
+  276  ls
+  277  pwd
+  278  ls
+  279  cd nginx-1.17.7/
+  280  ls
+  281  ./configure  --prefix=/etc/nginx --add-module=/usr/local/src/nginx_upstream_check_module-master --sbin-path=/usr/sbin/nginx --modules-path=/usr/lib64/nginx/modules --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --pid-path=/var/run/nginx.pid --lock-path=/var/run/nginx.lock --http-client-body-temp-path=/var/cache/nginx/client_temp --http-proxy-temp-path=/var/cache/nginx/proxy_temp --http-fastcgi-temp-path=/var/cache/nginx/fastcgi_temp --http-uwsgi-temp-path=/var/cache/nginx/uwsgi_temp --http-scgi-temp-path=/var/cache/nginx/scgi_temp --user=nginx --group=nginx --with-compat --with-file-aio --with-threads --with-http_addition_module --with-http_auth_request_module --with-http_dav_module --with-http_flv_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_mp4_module --with-http_random_index_module --with-http_realip_module --with-http_secure_link_module --with-http_slice_module --with-http_ssl_module --with-http_stub_status_module --with-http_sub_module --with-http_v2_module --with-mail --with-mail_ssl_module --with-stream --with-stream_realip_module --with-stream_ssl_module --with-stream_ssl_preread_module --with-cc-opt='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -fPIC' --with-ld-opt='-Wl,-z,relro -Wl,-z,now -pie'
+  282  make -j4
+  283  ls
+  284  cd objs
+  285  ls
+  286  cd ..
+  287  objs/nginx -t
+  288  sudo objs/nginx -t
+  289  ls
+  290  cd ..
+  291  ls
+  292  rm -rf nginx-1.17.7/
+  293  cd /usr/local
+  294  ls
+  295  sudo rm -rf nginx-1.17.7/
+  296  ls
+  297  cd src
+  298  ls
+  299  sudo mv /tmp/nginx-1.17.7.tar.gz .
+  300  ls
+  301  sudo tar -vzxf nginx
+  302  sudo tar -vzxf nginx-1.17.7.tar.gz 
+  303  ls
+  304  sudo rm -rf nginx-1.17.7.tar.gz 
+  305  ls
+  306  nginx -v
+  307  cd /usr/loca
+  308  cd /usr/local
+  309  ls
+  310  sudo cp src/nginx-1.17.7/ .
+  311  ls
+  312  sudo cp ./src/nginx-1.17.7/ .
+  313  ls
+  314  sudo mv /tmp/nginx-1.17.7.tar.gz .
+  315  ls
+  316  sudo tar -vzxf nginx-1.17.7.tar.gz 
+  317  ls
+  318  sudo rm -rf nginx-1.17.7.tar.gz 
+  319  ls
+  320  sudo mv nginx-1.17.7/ nginx
+  321  ls
+  322  cd nginx
+  323  ls
+  324  ./configure  --prefix=/usr/local/nginx --add-module=/usr/local/src/nginx_upstream_check_module-master --sbin-path=/usr/local/nginx/sbin/nginx --modules-path=/usr/lib64/nginx/modules --conf-path=/usr/local/nginx/conf/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --pid-path=/var/run/nginx/nginx.pid --lock-path=/var/lock/nginx.lock --http-client-body-temp-path=/var/cache/nginx/client_temp --http-proxy-temp-path=/var/cache/nginx/proxy_temp --http-fastcgi-temp-path=/var/cache/nginx/fastcgi_temp --http-uwsgi-temp-path=/var/cache/nginx/uwsgi_temp --http-scgi-temp-path=/var/cache/nginx/scgi_temp --user=nginx --group=nginx --with-compat --with-file-aio --with-threads --with-http_addition_module --with-http_auth_request_module --with-http_dav_module --with-http_flv_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_mp4_module --with-http_random_index_module --with-http_realip_module --with-http_secure_link_module --with-http_slice_module --with-http_ssl_module --with-http_stub_status_module --with-http_sub_module --with-http_v2_module --with-mail --with-mail_ssl_module --with-stream --with-stream_realip_module --with-stream_ssl_module --with-stream_ssl_preread_module --with-cc-opt='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -fPIC' --with-ld-opt='-Wl,-z,relro -Wl,-z,now -pie'
+  325  ls
+  326  sudo ./configure  --prefix=/usr/local/nginx --add-module=/usr/local/src/nginx_upstream_check_module-master --sbin-path=/usr/local/nginx/sbin/nginx --modules-path=/usr/lib64/nginx/modules --conf-path=/usr/local/nginx/conf/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --pid-path=/var/run/nginx/nginx.pid --lock-path=/var/lock/nginx.lock --http-client-body-temp-path=/var/cache/nginx/client_temp --http-proxy-temp-path=/var/cache/nginx/proxy_temp --http-fastcgi-temp-path=/var/cache/nginx/fastcgi_temp --http-uwsgi-temp-path=/var/cache/nginx/uwsgi_temp --http-scgi-temp-path=/var/cache/nginx/scgi_temp --user=nginx --group=nginx --with-compat --with-file-aio --with-threads --with-http_addition_module --with-http_auth_request_module --with-http_dav_module --with-http_flv_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_mp4_module --with-http_random_index_module --with-http_realip_module --with-http_secure_link_module --with-http_slice_module --with-http_ssl_module --with-http_stub_status_module --with-http_sub_module --with-http_v2_module --with-mail --with-mail_ssl_module --with-stream --with-stream_realip_module --with-stream_ssl_module --with-stream_ssl_preread_module --with-cc-opt='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -fPIC' --with-ld-opt='-Wl,-z,relro -Wl,-z,now -pie'
+  327  make -j4
+  328  sudo make -j2
+  329  ls
+  330  objs/nginx -t
+  331  sudo objs/nginx -t
+  332  sudo useradd -s /sbin/nologin -M nginx
+  333  id nginx
+  334  sudo objs/nginx -t
+  335  sudo mkdir -p /var/cache/nginx/client_temp
+  336  sudo objs/nginx -t
+  337  which nginx
+  338  sudo cp objs/nginx /usr/sbin/nginx
+  339  which nginx
+  340  nginx -v
+  341  nginx -V
+  342  ls
+  343  cd ..
+  344  ls
+  345  cd src
+  346  ls
+  347  sudo rm -rf nginx-1.17.7/
+  348  cd ..
+  349  ls
+  350  cd nginx/conf
+  351  ls
+  352  sudo vim nginx.conf 
+  353  ifconfig
+  354  ls
+  355  sudo vim nginx.conf
+  356  ls
+  357  ps -ef|grep nginx
+  358  nginx -c /usr/local/nginx/conf/nginx.conf 
+  359  sudo nginx -c /usr/local/nginx/conf/nginx.conf 
+  360  sudo vim /usr/local/nginx/conf/nginx.conf
+  361  sudo vim -n /usr/local/nginx/conf/nginx.conf
+  362  cat -n /usr/local/nginx/conf/nginx.conf
+  363  sudo vim -n /usr/local/nginx/conf/nginx.conf
+  364  sudo nginx -c /usr/local/nginx/conf/nginx.conf 
+  365  sudo vim -n /usr/local/nginx/conf/nginx.conf
+  366  sudo nginx -c /usr/local/nginx/conf/nginx.conf 
+  367  ps -ef|grep nginx
+  368  sudo vim -n /usr/local/nginx/conf/nginx.conf
+  369  sudo nginx -c /usr/local/nginx/conf/nginx.conf 
+  370  ps -ef|grep nginx
+  371  ls
+  372  cat /usr/local/nginx/conf/nginx.conf
+  373  ps -ef|grep nginx
+  374  sudo vim /etc/rc.d/rc.local
+  375  ifconfig
+  376  ps -ef|grep nginx
+  377  cat /etc/rc.d/rc.local
+  378  cd /opt/project/lee_slide_cracker/
+  379  ls
+  380  sudo vim run.py 
+  381  ls
+  382  ps -ef|grep python
+  383  kill -9 26413
+  384  ps -ef|grep python
+  385  nohup python /opt/project/lee_slide_cracker/run.py runserver 0.0.0.0:8001 > /opt/logs/lee_slide_cracker/out.log 2>&1 &
+  386  ps -ef|grep python
+  387  ifconfig
+  388  netstat -tunlp
+  389  ls
+  390  kill -9 4632
+  391  ps -ef|grep python
+  392  ls
+  393  sudo vim run.py 
+  394  nohup python /opt/project/lee_slide_cracker/run.py runserver -p 8001 > /opt/logs/lee_slide_cracker/out.log 2>&1 &
+  395  netstat -tunlp
+  396  kill -9 4712
+  397  ls
+  398  sudo vim run.py 
+  399  sudo cp run.py run_8002.py
+  400  ls
+  401  sudo vim run.py run_8001.py
+  402  ls
+  403  sudo mv run.py run_8001.py
+  404  ls
+  405  sudo vim run_8002.py 
+  406  ls
+  407  sudo vim run_8001.py 
+  408  ls
+  409  ps -ef|grep python
+  410  nohup python /opt/project/lee_slide_cracker/run_8001.py > /opt/logs/lee_slide_cracker/out_8001.log 2>&1 &
+  411  nohup python /opt/project/lee_slide_cracker/run_8002.py > /opt/logs/lee_slide_cracker/out_8002.log 2>&1 &
+  412  ps -ef|grep python
+  413  ls
+  414  netstat -tunlp
+  415  ls
+  416  sudo vim /usr/local/nginx/conf/nginx.conf 
+  417  ifconfig
+  418  sudo nginx -s reload
+  419  cd /opt/logs/lee_slide_cracker/
+  420  ls
+  421  sudo rm -rf out.log 
+  422  ls
+  423  cat out_8001.log 
+  424  cat out_8002.log 
+  425  sudo vim /etc/rc.d/rc.local
+  426  ls
+  427  sudo vim /usr/local/nginx/conf/nginx.conf 
+  428  nginx -s reload
+  429  sudo nginx -s reload
+  430  ps -ef|grep nginx
+  431  netstat -tunlp
+  432  ls
+  433  cd /usr/local/nginx/conf
+  434  ls
+  435  cat nginx.conf 
+  436  cd ..
+  437  ls
+  438  cd conf
+  439  ls
+  440  sudo vim nginx.conf 
+  441  ls
+  442  cd ..
+  443  ls
+  444  sudo nginx -s reload
+  445  sudo vim nginx.conf 
+  446  cd conf
+  447  sudo vim nginx.conf 
+  448  ls
+  449  sudo nginx -s reload
+  450  ls
+  451  sudo vim nginx.conf 
+  452  sudo nginx -s reload
+  453  cat -n nginx.conf 
+  454  ls
+  455  sudo vim nginx.conf 
+  456  sudo nginx -s reload
+  457  ps -ef|grep nginx
+  458  cd /opt/logs
+  459  ls
+  460  tail -100f access.log 
+  461  ls
+  462  sudo rm -rf access.log 
+  463  ls
+  464  tail -f nginx_8000.log 
+  465  cd /usr/local/nginx/conf
+  466  ls
+  467  ps -ef|grep python
+  468  ps -ef|grep nginx
+  469  ls
+  470  sudo vim nginx.conf 
+  471  ls
+  472  sudo nginx -s reload
+  473  ls
+  474  cd ..
+  475  ls
+  476  cd conf
+  477  ls
+  478  cd ..
+  479  ls
+  480  cd ..
+  481  ls
+  482  cd nginx
+  483  ls
+  484  cd conf
+  485  ls
+  486  sudo vim nginx.conf 
+  487  sudo nginx -s reload
+  488  sudo vim nginx.conf 
+  489  sudo nginx -s reload
